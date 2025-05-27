@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mental Health FAQ Chatbot</title>
+    <style>
+        body { font-family: Arial; background-color: #f0f0f0; padding: 40px; }
+        .chatbox { max-width: 600px; margin: auto; background: white; padding: 20px; border-radius: 10px; }
+        h2 { text-align: center; }
+        input[type="text"] { width: 100%; padding: 10px; margin-top: 10px; }
+        input[type="submit"] { padding: 10px 20px; margin-top: 10px; }
+        .response { margin-top: 20px; font-style: italic; }
+    </style>
+</head>
+<body>
+    <div class="chatbox">
+        <h2>Mental Health FAQ Chatbot</h2>
+        <form method="POST">
+            <label>Ask a question:</label><br>
+            <input type="text" name="question" required>
+            <input type="submit" value="Ask">
+        </form>
+        {% if response %}
+            <div class="response"><strong>Bot:</strong> {{ response }}</div>
+        {% endif %}
+    </div>
+</body>
+</html>
