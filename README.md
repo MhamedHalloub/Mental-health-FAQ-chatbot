@@ -3,12 +3,19 @@ A simple and interactive chatbot that answers frequently asked questions (FAQs) 
 
 
 📂 Project Structure
+
 faq_chatbot_web/
+
 ├── app.py                  # Flask backend
+
 ├── Mental_Health_FAQ.csv   # FAQ dataset (questions and answers)
+
 └── templates/
+
     └── index.html          # Frontend UI
+    
 🚀 Features
+
 💬 Ask natural language questions about mental health
 
 ⚡ Instant response from a curated FAQ dataset
