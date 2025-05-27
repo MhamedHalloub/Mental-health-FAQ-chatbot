@@ -24,6 +24,7 @@ Clone the repository:
 git clone https://github.com/MhamedHalloub/Mental-health-FAQ-chatbot.git
 
 cd Mental-health-FAQ-chatbot
+
 Install dependencies:
 
 bash
@@ -31,10 +32,13 @@ bash
 pip install flask pandas scikit-learn
 
 Run the app:
+
 python app.py
+
 Open your browser and go to: http://127.0.0.1:5000
 
 🛠 Customize
+
 To use your own FAQ data, replace the contents of Mental_Health_FAQ.csv.
 
 Make sure it has two columns: Questions and Answers.
