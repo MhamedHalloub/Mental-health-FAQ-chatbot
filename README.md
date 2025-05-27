@@ -20,11 +20,14 @@ faq_chatbot_web/
 📦 Installation
 Clone the repository:
 
+
 git clone https://github.com/MhamedHalloub/Mental-health-FAQ-chatbot.git
+
 cd Mental-health-FAQ-chatbot
 Install dependencies:
 
 bash
+
 pip install flask pandas scikit-learn
 
 Run the app:
