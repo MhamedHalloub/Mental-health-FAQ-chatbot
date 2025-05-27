@@ -18,6 +18,7 @@ faq_chatbot_web/
 🌐 Lightweight and easy to run on any machine
 
 📦 Installation
+
 Clone the repository:
 
 
@@ -44,10 +45,13 @@ To use your own FAQ data, replace the contents of Mental_Health_FAQ.csv.
 Make sure it has two columns: Questions and Answers.
 
 🧪 Example
+
 Q: Can mental illness be cured?
+
 A: Many people with mental health conditions recover completely or can manage their symptoms with treatment.
 
 📌 Requirements
+
 Python 3.7+
 
 Flask
