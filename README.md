@@ -3,9 +3,6 @@ A simple and interactive chatbot that answers frequently asked questions (FAQs) 
 
 
 📂 Project Structure
-bash
-Copy
-Edit
 faq_chatbot_web/
 ├── app.py                  # Flask backend
 ├── Mental_Health_FAQ.csv   # FAQ dataset (questions and answers)
@@ -23,9 +20,6 @@ faq_chatbot_web/
 📦 Installation
 Clone the repository:
 
-bash
-Copy
-Edit
 git clone https://github.com/MhamedHalloub/Mental-health-FAQ-chatbot.git
 cd Mental-health-FAQ-chatbot
 Install dependencies:
@@ -34,7 +28,6 @@ bash
 pip install flask pandas scikit-learn
 
 Run the app:
-bash
 python app.py
 Open your browser and go to: http://127.0.0.1:5000
 
